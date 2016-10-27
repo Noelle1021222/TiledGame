@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37580E7D1DBDF34D007A6531 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37580E7C1DBDF34D007A6531 /* player.swift */; };
+		37580E7F1DBE0110007A6531 /* ImageEnemy1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 37580E7E1DBE0110007A6531 /* ImageEnemy1.atlas */; };
+		375A59A61DB3CB230028E18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59A51DB3CB230028E18D /* AppDelegate.swift */; };
+		375A59A81DB3CB230028E18D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 375A59A71DB3CB230028E18D /* GameScene.sks */; };
+		375A59AA1DB3CB230028E18D /* GroundGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59A91DB3CB230028E18D /* GroundGameScene.swift */; };
+		375A59AC1DB3CB240028E18D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59AB1DB3CB230028E18D /* GameViewController.swift */; };
+		375A59AF1DB3CB240028E18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375A59AD1DB3CB240028E18D /* Main.storyboard */; };
+		375A59B11DB3CB240028E18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375A59B01DB3CB240028E18D /* Assets.xcassets */; };
+		375A59B41DB3CB240028E18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375A59B21DB3CB240028E18D /* LaunchScreen.storyboard */; };
+		375A59BF1DB3CB240028E18D /* TiledGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59BE1DB3CB240028E18D /* TiledGameTests.swift */; };
+		375A59CA1DB3CB240028E18D /* TiledGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59C91DB3CB240028E18D /* TiledGameUITests.swift */; };
+		375A59E11DB3CDBB0028E18D /* level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 375A59E01DB3CDBB0028E18D /* level2.tmx */; };
+		375A59E31DB3CDFE0028E18D /* super_mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 375A59E21DB3CDFE0028E18D /* super_mario.png */; };
+		375A59E81DB3CF230028E18D /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 375A59E51DB3CF230028E18D /* JSTileMap.m */; };
+		375A59E91DB3CF230028E18D /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 375A59E71DB3CF230028E18D /* LFCGzipUtility.m */; };
+		375A59EB1DB3D04A0028E18D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 375A59EA1DB3D04A0028E18D /* libz.tbd */; };
+		375A59ED1DB3D0FD0028E18D /* level.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 375A59EC1DB3D0FD0028E18D /* level.tmx */; };
+		375A59EF1DB3D13B0028E18D /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 375A59EE1DB3D13B0028E18D /* Images.atlas */; };
+		377168CB1DB679260062EC7B /* dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168C71DB679260062EC7B /* dpad.png */; };
+		377168CC1DB679260062EC7B /* joystick.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168C81DB679260062EC7B /* joystick.png */; };
+		377168CD1DB679260062EC7B /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377168C91DB679260062EC7B /* Joystick.swift */; };
+		377168CE1DB679260062EC7B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 377168CA1DB679260062EC7B /* README.md */; };
+		377168DB1DB748830062EC7B /* button_dir_down_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168D71DB748830062EC7B /* button_dir_down_0.png */; };
+		377168DC1DB748830062EC7B /* button_dir_left_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168D81DB748830062EC7B /* button_dir_left_0.png */; };
+		377168DD1DB748830062EC7B /* button_dir_right_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168D91DB748830062EC7B /* button_dir_right_0.png */; };
+		377168DE1DB748830062EC7B /* button_dir_up_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168DA1DB748830062EC7B /* button_dir_up_0.png */; };
+		377168E11DB74A520062EC7B /* ControllerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377168E01DB74A520062EC7B /* ControllerButton.swift */; };
+		377168E31DB74AEA0062EC7B /* Joystick2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377168E21DB74AEA0062EC7B /* Joystick2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375A59BB1DB3CB240028E18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375A599A1DB3CB230028E18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375A59A11DB3CB230028E18D;
+			remoteInfo = TiledGame;
+		};
+		375A59C61DB3CB240028E18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375A599A1DB3CB230028E18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375A59A11DB3CB230028E18D;
+			remoteInfo = TiledGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37580E7C1DBDF34D007A6531 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		37580E7E1DBE0110007A6531 /* ImageEnemy1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ImageEnemy1.atlas; sourceTree = "<group>"; };
+		375A59A21DB3CB230028E18D /* TiledGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375A59A51DB3CB230028E18D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		375A59A71DB3CB230028E18D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		375A59A91DB3CB230028E18D /* GroundGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundGameScene.swift; sourceTree = "<group>"; };
+		375A59AB1DB3CB230028E18D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		375A59AE1DB3CB240028E18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375A59B01DB3CB240028E18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		375A59B31DB3CB240028E18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		375A59B51DB3CB240028E18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375A59BA1DB3CB240028E18D /* TiledGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375A59BE1DB3CB240028E18D /* TiledGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledGameTests.swift; sourceTree = "<group>"; };
+		375A59C01DB3CB240028E18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375A59C51DB3CB240028E18D /* TiledGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375A59C91DB3CB240028E18D /* TiledGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledGameUITests.swift; sourceTree = "<group>"; };
+		375A59CB1DB3CB240028E18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375A59D91DB3CD050028E18D /* TiledGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiledGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		375A59E01DB3CDBB0028E18D /* level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level2.tmx; sourceTree = "<group>"; };
+		375A59E21DB3CDFE0028E18D /* super_mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super_mario.png; sourceTree = "<group>"; };
+		375A59E41DB3CF230028E18D /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		375A59E51DB3CF230028E18D /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		375A59E61DB3CF230028E18D /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		375A59E71DB3CF230028E18D /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		375A59EA1DB3D04A0028E18D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		375A59EC1DB3D0FD0028E18D /* level.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level.tmx; sourceTree = "<group>"; };
+		375A59EE1DB3D13B0028E18D /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
+		377168C71DB679260062EC7B /* dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpad.png; sourceTree = "<group>"; };
+		377168C81DB679260062EC7B /* joystick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick.png; sourceTree = "<group>"; };
+		377168C91DB679260062EC7B /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		377168CA1DB679260062EC7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		377168D71DB748830062EC7B /* button_dir_down_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_down_0.png; sourceTree = "<group>"; };
+		377168D81DB748830062EC7B /* button_dir_left_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_left_0.png; sourceTree = "<group>"; };
+		377168D91DB748830062EC7B /* button_dir_right_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_right_0.png; sourceTree = "<group>"; };
+		377168DA1DB748830062EC7B /* button_dir_up_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_up_0.png; sourceTree = "<group>"; };
+		377168E01DB74A520062EC7B /* ControllerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerButton.swift; sourceTree = "<group>"; };
+		377168E21DB74AEA0062EC7B /* Joystick2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375A599F1DB3CB230028E18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375A59EB1DB3D04A0028E18D /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375A59B71DB3CB240028E18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375A59C21DB3CB240028E18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375A59991DB3CB230028E18D = {
+			isa = PBXGroup;
+			children = (
+				375A59EA1DB3D04A0028E18D /* libz.tbd */,
+				375A59A41DB3CB230028E18D /* TiledGame */,
+				375A59BD1DB3CB240028E18D /* TiledGameTests */,
+				375A59C81DB3CB240028E18D /* TiledGameUITests */,
+				375A59A31DB3CB230028E18D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375A59A31DB3CB230028E18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375A59A21DB3CB230028E18D /* TiledGame.app */,
+				375A59BA1DB3CB240028E18D /* TiledGameTests.xctest */,
+				375A59C51DB3CB240028E18D /* TiledGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375A59A41DB3CB230028E18D /* TiledGame */ = {
+			isa = PBXGroup;
+			children = (
+				377168DF1DB7488B0062EC7B /* button */,
+				377168C71DB679260062EC7B /* dpad.png */,
+				37580E7C1DBDF34D007A6531 /* player.swift */,
+				377168C81DB679260062EC7B /* joystick.png */,
+				377168C91DB679260062EC7B /* Joystick.swift */,
+				377168CA1DB679260062EC7B /* README.md */,
+				37580E7E1DBE0110007A6531 /* ImageEnemy1.atlas */,
+				375A59EE1DB3D13B0028E18D /* Images.atlas */,
+				375A59A51DB3CB230028E18D /* AppDelegate.swift */,
+				375A59A91DB3CB230028E18D /* GroundGameScene.swift */,
+				375A59AB1DB3CB230028E18D /* GameViewController.swift */,
+				377168E21DB74AEA0062EC7B /* Joystick2.swift */,
+				377168E01DB74A520062EC7B /* ControllerButton.swift */,
+				375A59AD1DB3CB240028E18D /* Main.storyboard */,
+				375A59A71DB3CB230028E18D /* GameScene.sks */,
+				375A59B21DB3CB240028E18D /* LaunchScreen.storyboard */,
+				375A59E01DB3CDBB0028E18D /* level2.tmx */,
+				375A59EC1DB3D0FD0028E18D /* level.tmx */,
+				375A59E21DB3CDFE0028E18D /* super_mario.png */,
+				375A59B01DB3CB240028E18D /* Assets.xcassets */,
+				375A59D91DB3CD050028E18D /* TiledGame-Bridging-Header.h */,
+				375A59D81DB3CCED0028E18D /* JSTileMap */,
+				375A59B51DB3CB240028E18D /* Info.plist */,
+			);
+			path = TiledGame;
+			sourceTree = "<group>";
+		};
+		375A59BD1DB3CB240028E18D /* TiledGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				375A59BE1DB3CB240028E18D /* TiledGameTests.swift */,
+				375A59C01DB3CB240028E18D /* Info.plist */,
+			);
+			path = TiledGameTests;
+			sourceTree = "<group>";
+		};
+		375A59C81DB3CB240028E18D /* TiledGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				375A59C91DB3CB240028E18D /* TiledGameUITests.swift */,
+				375A59CB1DB3CB240028E18D /* Info.plist */,
+			);
+			path = TiledGameUITests;
+			sourceTree = "<group>";
+		};
+		375A59D81DB3CCED0028E18D /* JSTileMap */ = {
+			isa = PBXGroup;
+			children = (
+				375A59E41DB3CF230028E18D /* JSTileMap.h */,
+				375A59E51DB3CF230028E18D /* JSTileMap.m */,
+				375A59E61DB3CF230028E18D /* LFCGzipUtility.h */,
+				375A59E71DB3CF230028E18D /* LFCGzipUtility.m */,
+			);
+			name = JSTileMap;
+			sourceTree = "<group>";
+		};
+		377168DF1DB7488B0062EC7B /* button */ = {
+			isa = PBXGroup;
+			children = (
+				377168D71DB748830062EC7B /* button_dir_down_0.png */,
+				377168D81DB748830062EC7B /* button_dir_left_0.png */,
+				377168D91DB748830062EC7B /* button_dir_right_0.png */,
+				377168DA1DB748830062EC7B /* button_dir_up_0.png */,
+			);
+			name = button;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375A59A11DB3CB230028E18D /* TiledGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375A59CE1DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGame" */;
+			buildPhases = (
+				375A599E1DB3CB230028E18D /* Sources */,
+				375A599F1DB3CB230028E18D /* Frameworks */,
+				375A59A01DB3CB230028E18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledGame;
+			productName = TiledGame;
+			productReference = 375A59A21DB3CB230028E18D /* TiledGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375A59B91DB3CB240028E18D /* TiledGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375A59D11DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGameTests" */;
+			buildPhases = (
+				375A59B61DB3CB240028E18D /* Sources */,
+				375A59B71DB3CB240028E18D /* Frameworks */,
+				375A59B81DB3CB240028E18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375A59BC1DB3CB240028E18D /* PBXTargetDependency */,
+			);
+			name = TiledGameTests;
+			productName = TiledGameTests;
+			productReference = 375A59BA1DB3CB240028E18D /* TiledGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		375A59C41DB3CB240028E18D /* TiledGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375A59D41DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGameUITests" */;
+			buildPhases = (
+				375A59C11DB3CB240028E18D /* Sources */,
+				375A59C21DB3CB240028E18D /* Frameworks */,
+				375A59C31DB3CB240028E18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375A59C71DB3CB240028E18D /* PBXTargetDependency */,
+			);
+			name = TiledGameUITests;
+			productName = TiledGameUITests;
+			productReference = 375A59C51DB3CB240028E18D /* TiledGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375A599A1DB3CB230028E18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hsu.ya.chu;
+				TargetAttributes = {
+					375A59A11DB3CB230028E18D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X956LZPK4M;
+					};
+					375A59B91DB3CB240028E18D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X956LZPK4M;
+						TestTargetID = 375A59A11DB3CB230028E18D;
+					};
+					375A59C41DB3CB240028E18D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X956LZPK4M;
+						TestTargetID = 375A59A11DB3CB230028E18D;
+					};
+				};
+			};
+			buildConfigurationList = 375A599D1DB3CB230028E18D /* Build configuration list for PBXProject "TiledGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375A59991DB3CB230028E18D;
+			productRefGroup = 375A59A31DB3CB230028E18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375A59A11DB3CB230028E18D /* TiledGame */,
+				375A59B91DB3CB240028E18D /* TiledGameTests */,
+				375A59C41DB3CB240028E18D /* TiledGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375A59A01DB3CB230028E18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377168DE1DB748830062EC7B /* button_dir_up_0.png in Resources */,
+				375A59E31DB3CDFE0028E18D /* super_mario.png in Resources */,
+				375A59A81DB3CB230028E18D /* GameScene.sks in Resources */,
+				377168CC1DB679260062EC7B /* joystick.png in Resources */,
+				375A59B41DB3CB240028E18D /* LaunchScreen.storyboard in Resources */,
+				377168DB1DB748830062EC7B /* button_dir_down_0.png in Resources */,
+				37580E7F1DBE0110007A6531 /* ImageEnemy1.atlas in Resources */,
+				377168DD1DB748830062EC7B /* button_dir_right_0.png in Resources */,
+				375A59ED1DB3D0FD0028E18D /* level.tmx in Resources */,
+				375A59B11DB3CB240028E18D /* Assets.xcassets in Resources */,
+				377168CB1DB679260062EC7B /* dpad.png in Resources */,
+				375A59EF1DB3D13B0028E18D /* Images.atlas in Resources */,
+				377168DC1DB748830062EC7B /* button_dir_left_0.png in Resources */,
+				375A59AF1DB3CB240028E18D /* Main.storyboard in Resources */,
+				375A59E11DB3CDBB0028E18D /* level2.tmx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375A59B81DB3CB240028E18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375A59C31DB3CB240028E18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375A599E1DB3CB230028E18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375A59AA1DB3CB230028E18D /* GroundGameScene.swift in Sources */,
+				377168E11DB74A520062EC7B /* ControllerButton.swift in Sources */,
+				375A59E91DB3CF230028E18D /* LFCGzipUtility.m in Sources */,
+				375A59AC1DB3CB240028E18D /* GameViewController.swift in Sources */,
+				377168CE1DB679260062EC7B /* README.md in Sources */,
+				377168CD1DB679260062EC7B /* Joystick.swift in Sources */,
+				375A59A61DB3CB230028E18D /* AppDelegate.swift in Sources */,
+				375A59E81DB3CF230028E18D /* JSTileMap.m in Sources */,
+				37580E7D1DBDF34D007A6531 /* player.swift in Sources */,
+				377168E31DB74AEA0062EC7B /* Joystick2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375A59B61DB3CB240028E18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375A59BF1DB3CB240028E18D /* TiledGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375A59C11DB3CB240028E18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375A59CA1DB3CB240028E18D /* TiledGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375A59BC1DB3CB240028E18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375A59A11DB3CB230028E18D /* TiledGame */;
+			targetProxy = 375A59BB1DB3CB240028E18D /* PBXContainerItemProxy */;
+		};
+		375A59C71DB3CB240028E18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375A59A11DB3CB230028E18D /* TiledGame */;
+			targetProxy = 375A59C61DB3CB240028E18D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375A59AD1DB3CB240028E18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375A59AE1DB3CB240028E18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375A59B21DB3CB240028E18D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375A59B31DB3CB240028E18D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375A59CC1DB3CB240028E18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		375A59CD1DB3CB240028E18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375A59CF1DB3CB240028E18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TiledGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TiledGame/TiledGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		375A59D01DB3CB240028E18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TiledGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TiledGame/TiledGame-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		375A59D21DB3CB240028E18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TiledGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledGame.app/TiledGame";
+			};
+			name = Debug;
+		};
+		375A59D31DB3CB240028E18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiledGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledGame.app/TiledGame";
+			};
+			name = Release;
+		};
+		375A59D51DB3CB240028E18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TiledGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TiledGame;
+			};
+			name = Debug;
+		};
+		375A59D61DB3CB240028E18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiledGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TiledGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375A599D1DB3CB230028E18D /* Build configuration list for PBXProject "TiledGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375A59CC1DB3CB240028E18D /* Debug */,
+				375A59CD1DB3CB240028E18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375A59CE1DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375A59CF1DB3CB240028E18D /* Debug */,
+				375A59D01DB3CB240028E18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375A59D11DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375A59D21DB3CB240028E18D /* Debug */,
+				375A59D31DB3CB240028E18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375A59D41DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375A59D51DB3CB240028E18D /* Debug */,
+				375A59D61DB3CB240028E18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375A599A1DB3CB230028E18D /* Project object */;
+}
