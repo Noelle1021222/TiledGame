@@ -7,34 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37580E7D1DBDF34D007A6531 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37580E7C1DBDF34D007A6531 /* player.swift */; };
+		370373661DCBD2C60075E361 /* coin_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 370373651DCBD2C60075E361 /* coin_music.mp3 */; };
+		370373681DCBD2D80075E361 /* died.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 370373671DCBD2D80075E361 /* died.mp3 */; };
+		3703736A1DCBD30F0075E361 /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 370373691DCBD30F0075E361 /* jump.mp3 */; };
+		3703736C1DCBD5AC0075E361 /* village.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3703736B1DCBD5AC0075E361 /* village.mp3 */; };
+		3703736E1DCBE39C0075E361 /* finish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3703736D1DCBE39C0075E361 /* finish.mp3 */; };
+		370373701DCBE9770075E361 /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703736F1DCBE9770075E361 /* FBLoginViewController.swift */; };
+		370373721DCBF0AE0075E361 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370373711DCBF0AE0075E361 /* GoogleService-Info.plist */; };
+		370373761DCC07950075E361 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 370373751DCC07950075E361 /* facebook.png */; };
 		37580E7F1DBE0110007A6531 /* ImageEnemy1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 37580E7E1DBE0110007A6531 /* ImageEnemy1.atlas */; };
+		37580EC11DC843CA007A6531 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37580EC01DC843CA007A6531 /* Utility.swift */; };
 		375A59A61DB3CB230028E18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59A51DB3CB230028E18D /* AppDelegate.swift */; };
 		375A59A81DB3CB230028E18D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 375A59A71DB3CB230028E18D /* GameScene.sks */; };
 		375A59AA1DB3CB230028E18D /* GroundGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59A91DB3CB230028E18D /* GroundGameScene.swift */; };
-		375A59AC1DB3CB240028E18D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59AB1DB3CB230028E18D /* GameViewController.swift */; };
 		375A59AF1DB3CB240028E18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375A59AD1DB3CB240028E18D /* Main.storyboard */; };
 		375A59B11DB3CB240028E18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375A59B01DB3CB240028E18D /* Assets.xcassets */; };
 		375A59B41DB3CB240028E18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375A59B21DB3CB240028E18D /* LaunchScreen.storyboard */; };
 		375A59BF1DB3CB240028E18D /* TiledGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59BE1DB3CB240028E18D /* TiledGameTests.swift */; };
 		375A59CA1DB3CB240028E18D /* TiledGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A59C91DB3CB240028E18D /* TiledGameUITests.swift */; };
-		375A59E11DB3CDBB0028E18D /* level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 375A59E01DB3CDBB0028E18D /* level2.tmx */; };
 		375A59E31DB3CDFE0028E18D /* super_mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 375A59E21DB3CDFE0028E18D /* super_mario.png */; };
 		375A59E81DB3CF230028E18D /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 375A59E51DB3CF230028E18D /* JSTileMap.m */; };
 		375A59E91DB3CF230028E18D /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 375A59E71DB3CF230028E18D /* LFCGzipUtility.m */; };
 		375A59EB1DB3D04A0028E18D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 375A59EA1DB3D04A0028E18D /* libz.tbd */; };
 		375A59ED1DB3D0FD0028E18D /* level.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 375A59EC1DB3D0FD0028E18D /* level.tmx */; };
 		375A59EF1DB3D13B0028E18D /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 375A59EE1DB3D13B0028E18D /* Images.atlas */; };
-		377168CB1DB679260062EC7B /* dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168C71DB679260062EC7B /* dpad.png */; };
-		377168CC1DB679260062EC7B /* joystick.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168C81DB679260062EC7B /* joystick.png */; };
-		377168CD1DB679260062EC7B /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377168C91DB679260062EC7B /* Joystick.swift */; };
-		377168CE1DB679260062EC7B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 377168CA1DB679260062EC7B /* README.md */; };
+		375D0E3B1DCB79250023FCC7 /* GroundGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375D0E3A1DCB79250023FCC7 /* GroundGameViewController.swift */; };
 		377168DB1DB748830062EC7B /* button_dir_down_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168D71DB748830062EC7B /* button_dir_down_0.png */; };
 		377168DC1DB748830062EC7B /* button_dir_left_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168D81DB748830062EC7B /* button_dir_left_0.png */; };
 		377168DD1DB748830062EC7B /* button_dir_right_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168D91DB748830062EC7B /* button_dir_right_0.png */; };
 		377168DE1DB748830062EC7B /* button_dir_up_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 377168DA1DB748830062EC7B /* button_dir_up_0.png */; };
 		377168E11DB74A520062EC7B /* ControllerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377168E01DB74A520062EC7B /* ControllerButton.swift */; };
 		377168E31DB74AEA0062EC7B /* Joystick2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377168E21DB74AEA0062EC7B /* Joystick2.swift */; };
+		5D76A5B32F0708A553E84349 /* Pods_TiledGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565CF3C638E94EEB5718B1EB /* Pods_TiledGame.framework */; };
+		9991D0BB8367E74702B67570 /* Pods_TiledGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46D9465A910E9CF62A74626 /* Pods_TiledGameUITests.framework */; };
+		E92CA44DE052452B3B9EED24 /* Pods_TiledGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA42B93A59A8FCAABB53FA68 /* Pods_TiledGameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +61,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37580E7C1DBDF34D007A6531 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		07DEC3B12CABB7E70C3A32B1 /* Pods-TiledGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiledGameUITests/Pods-TiledGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		370373651DCBD2C60075E361 /* coin_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin_music.mp3; sourceTree = "<group>"; };
+		370373671DCBD2D80075E361 /* died.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = died.mp3; sourceTree = "<group>"; };
+		370373691DCBD30F0075E361 /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
+		3703736B1DCBD5AC0075E361 /* village.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = village.mp3; sourceTree = "<group>"; };
+		3703736D1DCBE39C0075E361 /* finish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = finish.mp3; sourceTree = "<group>"; };
+		3703736F1DCBE9770075E361 /* FBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
+		370373711DCBF0AE0075E361 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		370373751DCC07950075E361 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		37580E7E1DBE0110007A6531 /* ImageEnemy1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ImageEnemy1.atlas; sourceTree = "<group>"; };
+		37580EC01DC843CA007A6531 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		375A59A21DB3CB230028E18D /* TiledGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375A59A51DB3CB230028E18D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		375A59A71DB3CB230028E18D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		375A59A91DB3CB230028E18D /* GroundGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundGameScene.swift; sourceTree = "<group>"; };
-		375A59AB1DB3CB230028E18D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		375A59AE1DB3CB240028E18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375A59B01DB3CB240028E18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375A59B31DB3CB240028E18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +87,6 @@
 		375A59C91DB3CB240028E18D /* TiledGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledGameUITests.swift; sourceTree = "<group>"; };
 		375A59CB1DB3CB240028E18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		375A59D91DB3CD050028E18D /* TiledGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiledGame-Bridging-Header.h"; sourceTree = "<group>"; };
-		375A59E01DB3CDBB0028E18D /* level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level2.tmx; sourceTree = "<group>"; };
 		375A59E21DB3CDFE0028E18D /* super_mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super_mario.png; sourceTree = "<group>"; };
 		375A59E41DB3CF230028E18D /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
 		375A59E51DB3CF230028E18D /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
@@ -82,16 +95,21 @@
 		375A59EA1DB3D04A0028E18D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		375A59EC1DB3D0FD0028E18D /* level.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level.tmx; sourceTree = "<group>"; };
 		375A59EE1DB3D13B0028E18D /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
-		377168C71DB679260062EC7B /* dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpad.png; sourceTree = "<group>"; };
-		377168C81DB679260062EC7B /* joystick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick.png; sourceTree = "<group>"; };
-		377168C91DB679260062EC7B /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
-		377168CA1DB679260062EC7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		375D0E3A1DCB79250023FCC7 /* GroundGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroundGameViewController.swift; sourceTree = "<group>"; };
 		377168D71DB748830062EC7B /* button_dir_down_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_down_0.png; sourceTree = "<group>"; };
 		377168D81DB748830062EC7B /* button_dir_left_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_left_0.png; sourceTree = "<group>"; };
 		377168D91DB748830062EC7B /* button_dir_right_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_right_0.png; sourceTree = "<group>"; };
 		377168DA1DB748830062EC7B /* button_dir_up_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dir_up_0.png; sourceTree = "<group>"; };
 		377168E01DB74A520062EC7B /* ControllerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerButton.swift; sourceTree = "<group>"; };
 		377168E21DB74AEA0062EC7B /* Joystick2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick2.swift; sourceTree = "<group>"; };
+		4E67659E90BC173979186CE2 /* Pods-TiledGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiledGame/Pods-TiledGame.release.xcconfig"; sourceTree = "<group>"; };
+		565CF3C638E94EEB5718B1EB /* Pods_TiledGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiledGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0831D41120B1376891E309 /* Pods-TiledGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiledGameUITests/Pods-TiledGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D34D70FAE8276D6C20E40481 /* Pods-TiledGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiledGameTests/Pods-TiledGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D46D9465A910E9CF62A74626 /* Pods_TiledGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiledGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E6187FE052C42EDB99BADC /* Pods-TiledGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiledGameTests/Pods-TiledGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA42B93A59A8FCAABB53FA68 /* Pods_TiledGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiledGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA270316804DFD2401365ED4 /* Pods-TiledGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiledGame/Pods-TiledGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				375A59EB1DB3D04A0028E18D /* libz.tbd in Frameworks */,
+				5D76A5B32F0708A553E84349 /* Pods_TiledGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92CA44DE052452B3B9EED24 /* Pods_TiledGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9991D0BB8367E74702B67570 /* Pods_TiledGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +149,8 @@
 				375A59BD1DB3CB240028E18D /* TiledGameTests */,
 				375A59C81DB3CB240028E18D /* TiledGameUITests */,
 				375A59A31DB3CB230028E18D /* Products */,
+				F569786E483DA57505D3B8E6 /* Pods */,
+				6D21163FF28DA606E43B7F60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,29 +167,32 @@
 		375A59A41DB3CB230028E18D /* TiledGame */ = {
 			isa = PBXGroup;
 			children = (
+				370373651DCBD2C60075E361 /* coin_music.mp3 */,
+				370373671DCBD2D80075E361 /* died.mp3 */,
+				370373691DCBD30F0075E361 /* jump.mp3 */,
+				3703736B1DCBD5AC0075E361 /* village.mp3 */,
+				3703736D1DCBE39C0075E361 /* finish.mp3 */,
 				377168DF1DB7488B0062EC7B /* button */,
-				377168C71DB679260062EC7B /* dpad.png */,
-				37580E7C1DBDF34D007A6531 /* player.swift */,
-				377168C81DB679260062EC7B /* joystick.png */,
-				377168C91DB679260062EC7B /* Joystick.swift */,
-				377168CA1DB679260062EC7B /* README.md */,
 				37580E7E1DBE0110007A6531 /* ImageEnemy1.atlas */,
 				375A59EE1DB3D13B0028E18D /* Images.atlas */,
 				375A59A51DB3CB230028E18D /* AppDelegate.swift */,
+				375D0E3A1DCB79250023FCC7 /* GroundGameViewController.swift */,
+				370373751DCC07950075E361 /* facebook.png */,
 				375A59A91DB3CB230028E18D /* GroundGameScene.swift */,
-				375A59AB1DB3CB230028E18D /* GameViewController.swift */,
 				377168E21DB74AEA0062EC7B /* Joystick2.swift */,
 				377168E01DB74A520062EC7B /* ControllerButton.swift */,
+				3703736F1DCBE9770075E361 /* FBLoginViewController.swift */,
 				375A59AD1DB3CB240028E18D /* Main.storyboard */,
 				375A59A71DB3CB230028E18D /* GameScene.sks */,
 				375A59B21DB3CB240028E18D /* LaunchScreen.storyboard */,
-				375A59E01DB3CDBB0028E18D /* level2.tmx */,
 				375A59EC1DB3D0FD0028E18D /* level.tmx */,
 				375A59E21DB3CDFE0028E18D /* super_mario.png */,
 				375A59B01DB3CB240028E18D /* Assets.xcassets */,
 				375A59D91DB3CD050028E18D /* TiledGame-Bridging-Header.h */,
+				37580EC01DC843CA007A6531 /* Utility.swift */,
 				375A59D81DB3CCED0028E18D /* JSTileMap */,
 				375A59B51DB3CB240028E18D /* Info.plist */,
+				370373711DCBF0AE0075E361 /* GoogleService-Info.plist */,
 			);
 			path = TiledGame;
 			sourceTree = "<group>";
@@ -211,6 +237,29 @@
 			name = button;
 			sourceTree = "<group>";
 		};
+		6D21163FF28DA606E43B7F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565CF3C638E94EEB5718B1EB /* Pods_TiledGame.framework */,
+				DA42B93A59A8FCAABB53FA68 /* Pods_TiledGameTests.framework */,
+				D46D9465A910E9CF62A74626 /* Pods_TiledGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F569786E483DA57505D3B8E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA270316804DFD2401365ED4 /* Pods-TiledGame.debug.xcconfig */,
+				4E67659E90BC173979186CE2 /* Pods-TiledGame.release.xcconfig */,
+				D34D70FAE8276D6C20E40481 /* Pods-TiledGameTests.debug.xcconfig */,
+				D5E6187FE052C42EDB99BADC /* Pods-TiledGameTests.release.xcconfig */,
+				CC0831D41120B1376891E309 /* Pods-TiledGameUITests.debug.xcconfig */,
+				07DEC3B12CABB7E70C3A32B1 /* Pods-TiledGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375A59CE1DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGame" */;
 			buildPhases = (
+				1D94D1707FAA1C1BA59EAB60 /* [CP] Check Pods Manifest.lock */,
 				375A599E1DB3CB230028E18D /* Sources */,
 				375A599F1DB3CB230028E18D /* Frameworks */,
 				375A59A01DB3CB230028E18D /* Resources */,
+				91AF94EA39110728DFD23C10 /* [CP] Embed Pods Frameworks */,
+				56E3FB06708FFB3CE6C9665C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375A59D11DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGameTests" */;
 			buildPhases = (
+				ACF39240FDBB259D96D87DD2 /* [CP] Check Pods Manifest.lock */,
 				375A59B61DB3CB240028E18D /* Sources */,
 				375A59B71DB3CB240028E18D /* Frameworks */,
 				375A59B81DB3CB240028E18D /* Resources */,
+				8053025CE2499A7C8E5B4292 /* [CP] Embed Pods Frameworks */,
+				C0BE158C88E17EE74DAF4AA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375A59D41DB3CB240028E18D /* Build configuration list for PBXNativeTarget "TiledGameUITests" */;
 			buildPhases = (
+				FFF2E81E5ED935511D509892 /* [CP] Check Pods Manifest.lock */,
 				375A59C11DB3CB240028E18D /* Sources */,
 				375A59C21DB3CB240028E18D /* Frameworks */,
 				375A59C31DB3CB240028E18D /* Resources */,
+				F5E8C75253981329A815CC49 /* [CP] Embed Pods Frameworks */,
+				920B6C6A58E4DF6BA59898B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,20 +377,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				377168DE1DB748830062EC7B /* button_dir_up_0.png in Resources */,
+				3703736E1DCBE39C0075E361 /* finish.mp3 in Resources */,
 				375A59E31DB3CDFE0028E18D /* super_mario.png in Resources */,
 				375A59A81DB3CB230028E18D /* GameScene.sks in Resources */,
-				377168CC1DB679260062EC7B /* joystick.png in Resources */,
 				375A59B41DB3CB240028E18D /* LaunchScreen.storyboard in Resources */,
+				370373761DCC07950075E361 /* facebook.png in Resources */,
 				377168DB1DB748830062EC7B /* button_dir_down_0.png in Resources */,
 				37580E7F1DBE0110007A6531 /* ImageEnemy1.atlas in Resources */,
+				370373681DCBD2D80075E361 /* died.mp3 in Resources */,
 				377168DD1DB748830062EC7B /* button_dir_right_0.png in Resources */,
 				375A59ED1DB3D0FD0028E18D /* level.tmx in Resources */,
 				375A59B11DB3CB240028E18D /* Assets.xcassets in Resources */,
-				377168CB1DB679260062EC7B /* dpad.png in Resources */,
+				370373721DCBF0AE0075E361 /* GoogleService-Info.plist in Resources */,
 				375A59EF1DB3D13B0028E18D /* Images.atlas in Resources */,
 				377168DC1DB748830062EC7B /* button_dir_left_0.png in Resources */,
 				375A59AF1DB3CB240028E18D /* Main.storyboard in Resources */,
-				375A59E11DB3CDBB0028E18D /* level2.tmx in Resources */,
+				370373661DCBD2C60075E361 /* coin_music.mp3 in Resources */,
+				3703736C1DCBD5AC0075E361 /* village.mp3 in Resources */,
+				3703736A1DCBD30F0075E361 /* jump.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +414,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D94D1707FAA1C1BA59EAB60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56E3FB06708FFB3CE6C9665C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiledGame/Pods-TiledGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8053025CE2499A7C8E5B4292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiledGameTests/Pods-TiledGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91AF94EA39110728DFD23C10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiledGame/Pods-TiledGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920B6C6A58E4DF6BA59898B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiledGameUITests/Pods-TiledGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF39240FDBB259D96D87DD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BE158C88E17EE74DAF4AA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiledGameTests/Pods-TiledGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E8C75253981329A815CC49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiledGameUITests/Pods-TiledGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF2E81E5ED935511D509892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		375A599E1DB3CB230028E18D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,12 +560,11 @@
 				375A59AA1DB3CB230028E18D /* GroundGameScene.swift in Sources */,
 				377168E11DB74A520062EC7B /* ControllerButton.swift in Sources */,
 				375A59E91DB3CF230028E18D /* LFCGzipUtility.m in Sources */,
-				375A59AC1DB3CB240028E18D /* GameViewController.swift in Sources */,
-				377168CE1DB679260062EC7B /* README.md in Sources */,
-				377168CD1DB679260062EC7B /* Joystick.swift in Sources */,
+				37580EC11DC843CA007A6531 /* Utility.swift in Sources */,
 				375A59A61DB3CB230028E18D /* AppDelegate.swift in Sources */,
+				370373701DCBE9770075E361 /* FBLoginViewController.swift in Sources */,
 				375A59E81DB3CF230028E18D /* JSTileMap.m in Sources */,
-				37580E7D1DBDF34D007A6531 /* player.swift in Sources */,
+				375D0E3B1DCB79250023FCC7 /* GroundGameViewController.swift in Sources */,
 				377168E31DB74AEA0062EC7B /* Joystick2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,13 +707,14 @@
 		};
 		375A59CF1DB3CB240028E18D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA270316804DFD2401365ED4 /* Pods-TiledGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TiledGame/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YaChu.TiledGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TiledGame/TiledGame-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -523,13 +723,14 @@
 		};
 		375A59D01DB3CB240028E18D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E67659E90BC173979186CE2 /* Pods-TiledGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TiledGame/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.homework.TiledGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YaChu.TiledGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TiledGame/TiledGame-Bridging-Header.h";
 			};
@@ -537,6 +738,7 @@
 		};
 		375A59D21DB3CB240028E18D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34D70FAE8276D6C20E40481 /* Pods-TiledGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -550,6 +752,7 @@
 		};
 		375A59D31DB3CB240028E18D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E6187FE052C42EDB99BADC /* Pods-TiledGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TiledGameTests/Info.plist;
@@ -562,6 +765,7 @@
 		};
 		375A59D51DB3CB240028E18D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0831D41120B1376891E309 /* Pods-TiledGameUITests.debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = TiledGameUITests/Info.plist;
@@ -574,6 +778,7 @@
 		};
 		375A59D61DB3CB240028E18D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DEC3B12CABB7E70C3A32B1 /* Pods-TiledGameUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TiledGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -1,0 +1,6 @@
+framework module Pods_TiledGameTests {
+  umbrella header "Pods-TiledGameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

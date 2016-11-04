@@ -61,6 +61,7 @@ class Joystick2: SKNode {
 				}
 			}
 		}
+
 		updateHighlightedButtons()
 	}
 	
@@ -134,19 +135,21 @@ class Joystick2: SKNode {
 			let is_within_angle = (abs(location.x - x) * angle >= abs(location.y - y))
 			let is_within_radius = (location.x - x) ** 2 + (location.y - y) ** 2 <= l ** 2
 			return is_right_of_x && is_within_angle && is_within_radius
+            
+            
 		}
 		self.addChild(buttonRight)
 		
-		buttonDown.position = CGPoint(x: self.position.x, y: self.position.y - distance)
-		buttonDown.name = Direction.Down.rawValue
-		buttonDown.hitbox = { (location: CGPoint) -> Bool in
-			
-			let is_below_of_y = location.y - y < 0
-			let is_within_angle = (abs(location.x - x) <= abs(location.y - y) * angle)
-			let is_within_radius = (location.x - x) ** 2 + (location.y - y) ** 2 <= l ** 2
-			return is_below_of_y && is_within_angle && is_within_radius
-		}
-		self.addChild(buttonDown)
+//		buttonDown.position = CGPoint(x: self.position.x, y: self.position.y - distance)
+//		buttonDown.name = Direction.Down.rawValue
+//		buttonDown.hitbox = { (location: CGPoint) -> Bool in
+//			
+//			let is_below_of_y = location.y - y < 0
+//			let is_within_angle = (abs(location.x - x) <= abs(location.y - y) * angle)
+//			let is_within_radius = (location.x - x) ** 2 + (location.y - y) ** 2 <= l ** 2
+//			return is_below_of_y && is_within_angle && is_within_radius
+//		}
+//		self.addChild(buttonDown)
 		
 		buttonUp.position = CGPoint(x: self.position.x, y: self.position.y + distance)
 		buttonUp.name = Direction.Up.rawValue

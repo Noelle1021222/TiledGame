@@ -17,7 +17,6 @@ class ControllerButton: SKSpriteNode {
 		
 		let texture = SKTexture(imageNamed: imageNamed)
 		self.init(texture: texture, color: UIColor.clearColor(), size: texture.size())
-//		super.init(imageNamed: imageNamed)
 		self.texture?.filteringMode = .Nearest
 		self.setScale(2.0)
 		self.alpha = 0.2
