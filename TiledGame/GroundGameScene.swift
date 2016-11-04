@@ -712,17 +712,12 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
 //            let x = -1
             reverse1 = -reverse1
             
-            print("my bump\(firstBody.node?.position)")
-            print("my bump\(firstBody.node?.position)")
-            
 
         }
         if firstBody.categoryBitMask == PhysicsCatagory.Pipe && secondBody.categoryBitMask == PhysicsCatagory.Enemy2 || firstBody.categoryBitMask == PhysicsCatagory.Enemy2 && secondBody.categoryBitMask == PhysicsCatagory.Pipe{
 
             reverse2 = -reverse2
-            
-            print("my bump\(firstBody.node?.position)")
-            print("my bump\(firstBody.node?.position)")
+
             
 
         }
@@ -740,10 +735,6 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
 
             reverse3 = -reverse3
             
-            print("my bump\(firstBody.node?.position)")
-            print("my bump\(firstBody.node?.position)")
-            
-            
 
         }
         
@@ -751,9 +742,7 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
         if firstBody.categoryBitMask == PhysicsCatagory.Pipe && secondBody.categoryBitMask == PhysicsCatagory.Enemy4 || firstBody.categoryBitMask == PhysicsCatagory.Enemy4 && secondBody.categoryBitMask == PhysicsCatagory.Pipe{
 
             reverse4 = -reverse4
-            
-            print("my bump\(firstBody.node?.position)")
-            print("my bump\(firstBody.node?.position)")
+
             
         }
         
