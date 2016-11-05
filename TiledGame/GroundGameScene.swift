@@ -146,10 +146,11 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
         
         // Setting Scene
         self.backgroundColor = UIColor(red: 104.0 / 255.0, green: 136.0 / 255.0, blue: 255.0 / 255.0, alpha: 1.0)
+        //設同色
         self.addChild(self.map)
         
         //handle collision
-        self.physicsBody = SKPhysicsBody(edgeLoopFromRect: CGRect(x: self.frame.origin.x, y: self.frame.origin.y - 36.0, width: self.frame.size.width, height: self.frame.size.height))
+        self.physicsBody = SKPhysicsBody(edgeLoopFromRect: CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: self.frame.size.width, height: self.frame.size.height))
         self.physicsBody?.friction = 0.0
         self.physicsWorld.contactDelegate = self
         //        self.physicsBody.collisionBitMask = 0
