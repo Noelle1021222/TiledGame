@@ -199,10 +199,7 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
             
             let y = PipeObject.objectForKey("y") as! Int
             let x = PipeObject.objectForKey("x") as! Int
-            print(x)
-            print(y)
-            
-            
+
             somePipe.position = CGPoint(x: x + Int(PipeTileObjects.positionOffset.x) + Int(width)!/2, y: y + Int(PipeTileObjects.positionOffset.y) + Int(height)!/2)
             somePipe.physicsBody = SKPhysicsBody(rectangleOfSize: PiPeSize)
             somePipe.physicsBody?.affectedByGravity = false
