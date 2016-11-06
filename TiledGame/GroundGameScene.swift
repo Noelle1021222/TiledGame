@@ -158,7 +158,6 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
         //        self.physicsWorld.gravity = CGVectorMake(0,0)
         //        self.physicsWorld.contactDelegate = self
         
-        
         // Setting obstacles
         let collisionsGroup: TMXObjectGroup = self.map.groupNamed("Collisions")
         for(var i = 0; i < collisionsGroup.objects.count; i++) {
@@ -186,7 +185,6 @@ class GroundGameScene: SKScene, SKSceneDelegate, SKPhysicsContactDelegate {
         }
         print(obstacles)
         self.addChild(self.obstacles)
-        
         
         let PipeTileObjects: TMXObjectGroup = self.map.groupNamed("PipeLayer")
         for(var i = 0; i < PipeTileObjects.objects.count; i++) {
